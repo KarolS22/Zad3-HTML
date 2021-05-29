@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="skrypt.js">       
+    </script>
+</head>
+<body>
+    <div id="lewa"><h1>Lorem ipsum dolor sit amet.</h1></div>
+    <div id="srodek">
+        <p>
+            Podaj imie:<input type="text" id="imie"></input><br/>
+            Podaj nazwisko:<input type="text" id="nazwisko"></input><br/>
+            Podaj email:<input type="email" id="email"></input><br/>
+            <button type="button" id="button" onclick="funkcja(imie.value,nazwisko.value,email.value)">Sprawdz dane</button><br/><br/>
+
+            Podaj liczby, w ciągu, bez przecinków: <input type="text" id="liczby"></input>
+            <button type="button" id="button2" onclick="funkcja2(liczby.value)">Znajdz najwiekszy element</button><br/><br/>
+
+            Podaj numer liczby ciągu Fibonacciego: <input type="number" id="nrLiczby"></input>
+            <button type="button" id="button3" onclick="fibonacci(nrLiczby.value)">Oblicz liczbe</button><br/><br/>
+
+            Podaj pierwsza liczbe do obliczenia NWD: <input type="text" id="pNwd"></input><br/>
+            Podaj druga liczbe do obliczenia NWD: <input type="text" id="dNwd"></input><br/>
+            <button type="button" id="button4" onclick="nwd(pNwd.value,dNwd.value)">Oblicz NWD</button>
+        </p>
+    </div>
+    <div id="prawa">
+        <p id="paragrafimie"></p>
+        <p id="paragrafnazwisko"></p>
+        <p id="paragrafemail"></p>
+        <p id="paragrafnajliczba"></p>
+        <p id="paragraffibonacci"></p>
+        <p id="paragrafnwd"></p>
+    </div>
+
+</body>
+</html>

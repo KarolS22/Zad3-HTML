@@ -1,0 +1,24 @@
+#lewa {
+float:left;
+background-color: brown;
+width: 200px;
+height: 400px;
+}
+
+#srodek {
+float:left;
+background-color: darkorange;
+width: calc(100% - 400px);
+height: 400px;
+}
+
+#prawa {
+float:left;
+background-color: darkorchid;
+width: 200px;
+height: 400px;
+}
+
+#nrLiczby {
+    width: 30px;
+}
